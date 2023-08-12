@@ -1,0 +1,348 @@
+{
+  "data": [
+    {
+      "Name": "Oregon Trail Mix",
+      "Size": "",
+      "Price": "$13.00",
+      "Barcode": "616316763098",
+      "Category": "Trail Mix"
+    },
+    {
+      "Name": "Awakened Pumpkin, Nut and Berry Mix",
+      "Size": "",
+      "Price": "$12.00",
+      "Barcode": "616316763029",
+      "Category": "Trail Mix"
+    },
+    {
+      "Name": "Avocado Oil, Refined",
+      "Size": "1/2 Gal",
+      "Price": "$41.75",
+      "Barcode": "616316763128",
+      "Category": "Oils"
+    },
+    {
+      "Name": "Pumpkin Seed Oil, Raw, Expeller Pressed",
+      "Size": "",
+      "Price": "$10.25",
+      "Barcode": "696859110313",
+      "Category": "Oils"
+    },
+    {
+      "Name": "Chocolate Hazelnut Butter",
+      "Size": "",
+      "Price": "$17.50",
+      "Barcode": "696859110351",
+      "Category": "Nut Butters"
+    },
+    {
+      "Name": "Sesame Oil, Toasted, Expeller Pressed, Unrefined",
+      "Size": "8.5 fl oz",
+      "Price": "$8.25",
+      "Barcode": "696859110337",
+      "Category": "Oils"
+    },
+    {
+      "Name": "Sunflower Seed Butter",
+      "Size": "16oz",
+      "Price": "$11.25",
+      "Barcode": "616316761315",
+      "Category": "Nut Butters"
+    },
+    {
+      "Name": "Chai, Traditional Masala, Blue Lotus",
+      "Size": "3 oz tin",
+      "Price": "$20.50",
+      "Barcode": "857730006006",
+      "Category": "Chai Tea"
+    },
+    {
+      "Name": "Chai, Traditional Masala, Blue Lotus",
+      "Size": "½ oz Stand-up Pouch",
+      "Price": "$5.75",
+      "Barcode": "857730006013",
+      "Category": "Chai Tea"
+    },
+    {
+      "Name": "Maple Syrup, Amber & Rich, Maple Valley",
+      "Size": "16 oz round glass decanter",
+      "Price": "$14.25",
+      "Barcode": "765299000550",
+      "Category": ""
+    },
+    {
+      "Name": "Maple Syrup, Amber & Rich, Maple Valley",
+      "Size": "12 oz flat glass bottle",
+      "Price": "$11.75",
+      "Barcode": "765299000420",
+      "Category": ""
+    },
+    {
+      "Name": "Pacific Coast Blend",
+      "Size": "6 oz bag",
+      "Price": "$8.25",
+      "Barcode": "616316762398",
+      "Category": "Trail Mix"
+    },
+    {
+      "Name": "Crystallized Ginger",
+      "Size": "6 oz bag",
+      "Price": "$6.25",
+      "Barcode": "616316762299",
+      "Category": "Snacks"
+    },
+    {
+      "Name": "Chai, Golden Masala, Blue Lotus",
+      "Size": "3 oz tin",
+      "Price": "$20.50",
+      "Barcode": "857730006105",
+      "Category": "Chai Tea"
+    },
+    {
+      "Name": "Chai, Golden Masala, Blue Lotus",
+      "Size": "½ oz Stand-Up Pouch",
+      "Price": "$5.75",
+      "Barcode": "857730006112",
+      "Category": "Chai Tea"
+    },
+    {
+      "Name": "Awakened® Almonds, Unsalted",
+      "Size": "6 oz bag",
+      "Price": "$9.25",
+      "Barcode": "616316762350",
+      "Category": "Nuts"
+    },
+    {
+      "Name": "Roasted Salted Cashews",
+      "Size": "6 oz bag",
+      "Price": "$7.25",
+      "Barcode": "616316762831",
+      "Category": "Nuts"
+    },
+    {
+      "Name": "walnuts halves and pieces",
+      "Size": "1 lb bag",
+      "Price": "$10.75",
+      "Barcode": "616316762848",
+      "Category": "Nuts"
+    },
+    {
+      "Name": "California Olive Oil, Extra Virgin, Arbequina, Raw",
+      "Size": "1/2 gal Glass Jug",
+      "Price": "$43.75",
+      "Barcode": "616316761384",
+      "Category": "Oils"
+    },
+    {
+      "Name": "Maple Syrup, Dark & Robust, Maple Valley",
+      "Size": "16 oz round glass decanter",
+      "Price": "$14.25",
+      "Barcode": "765299000543",
+      "Category": ""
+    },
+    {
+      "Name": "Awakened® Almonds, Salted",
+      "Size": "6 oz bag",
+      "Price": "$9.25",
+      "Barcode": "616316762343",
+      "Category": "Nuts"
+    },
+    {
+      "Name": "Dried Mango",
+      "Size": "6 oz bag",
+      "Price": "$6.75",
+      "Barcode": "616316762282",
+      "Category": "Snacks"
+    },
+    {
+      "Name": "Vinegar, Apple Cider, Raw, Unfiltered",
+      "Size": "1/2 gallon glass jug",
+      "Price": "$13.75",
+      "Barcode": "696859110382",
+      "Category": "Vinegars"
+    },
+    {
+      "Name": "Almond Butter, Creamy, Light Roast",
+      "Size": "1 lb Jar",
+      "Price": "$21.00",
+      "Barcode": "696859110283",
+      "Category": "Nut Butters"
+    },
+    {
+      "Name": "Dark Chocolate Covered Almonds",
+      "Size": "6 oz bag",
+      "Price": "$8.25",
+      "Barcode": "616316762244",
+      "Category": "Chocolates"
+    },
+    {
+      "Name": "Dark Chocolate Covered Almonds",
+      "Size": "2.5 oz bag",
+      "Price": "$4.75",
+      "Barcode": "616316762411",
+      "Category": "Chocolates"
+    },
+    {
+      "Name": "Dark Chocolate Covered Almonds",
+      "Size": "12 oz bag",
+      "Price": "$8.00",
+      "Barcode": "855301002969",
+      "Category": "Chocolates"
+    },
+    {
+      "Name": "Hazel Munch",
+      "Size": "6 oz bag",
+      "Price": "$8.50",
+      "Barcode": "616316762404",
+      "Category": "Chocolates"
+    },
+    {
+      "Name": "Canola Oil, Expeller Pressed, Refined",
+      "Size": "1/2 gal Glass Jug",
+      "Price": "$30.50",
+      "Barcode": "696859110443",
+      "Category": "Oils"
+    },
+    {
+      "Name": "Olive Oil, Arbequina, Raw, Extra-Virgin (Imported)",
+      "Size": "1/2 gal Glass Jug",
+      "Price": "$30.25",
+      "Barcode": "696859110412",
+      "Category": "Oils"
+    },
+    {
+      "Name": "Roasted Salted Hazelnuts",
+      "Size": "6 oz bag",
+      "Price": "$9.50",
+      "Barcode": "616316762374",
+      "Category": "Nuts"
+    },
+    {
+      "Name": "Sunrise Paleo Blend",
+      "Size": "6 oz bag",
+      "Price": "$8.00",
+      "Barcode": "616316762381",
+      "Category": "Trail Mix"
+    },
+    {
+      "Name": "Hazelnut Butter, Creamy, Light Roast",
+      "Size": "1 lb Jar",
+      "Price": "$20.00",
+      "Barcode": "696859110344",
+      "Category": "Nut Butters"
+    },
+    {
+      "Name": "Sesame Oil, Expeller Pressed, Unrefined",
+      "Size": "1/2 gal Glass Jug",
+      "Price": "$28.00",
+      "Barcode": "696859110467",
+      "Category": "Oils"
+    },
+    {
+      "Name": "Awakened® Pumpkin Seeds",
+      "Size": "6 oz bag",
+      "Price": "$6.00",
+      "Barcode": "616316762367",
+      "Category": "Snacks"
+    },
+    {
+      "Name": "Dark Chocolate Covered Hazelnuts",
+      "Size": "6 oz bag",
+      "Price": "$9.50",
+      "Barcode": "616316762268",
+      "Category": "Chocolates"
+    },
+    {
+      "Name": "Dark Chocolate Covered Hazelnuts",
+      "Size": "2.5 oz bag",
+      "Price": "$4.75",
+      "Barcode": "616316762435",
+      "Category": "Chocolates"
+    },
+    {
+      "Name": "Chai, Rooibos Masala, Blue Lotus",
+      "Size": "2 oz tin",
+      "Price": "$22.50",
+      "Barcode": "857730006020",
+      "Category": "Chai Tea"
+    },
+    {
+      "Name": "Chai, Rooibos Masala, Blue Lotus",
+      "Size": "½ oz Stand-Up Pouch",
+      "Price": "$6.50",
+      "Barcode": "857730006037",
+      "Category": "Chai Tea"
+    },
+    {
+      "Name": "Tamari, San-J, Wheat-Free",
+      "Size": "1/2 gallon glass jug",
+      "Price": "$33.50",
+      "Barcode": "696859110542",
+      "Category": ""
+    },
+    {
+      "Name": "Vinegar, Red Wine",
+      "Size": "1/2 Gallon Glass Jug",
+      "Price": "$14.25",
+      "Barcode": "616316762466",
+      "Category": "Vinegars"
+    },
+    {
+      "Name": "Coconut Oil, Extra Virgin, Unrefined",
+      "Size": "16 fl oz Jar",
+      "Price": "$8.00",
+      "Barcode": "696859110290",
+      "Category": "Oils"
+    },
+    {
+      "Name": "Vinegar, Blackberry, Biodynamic",
+      "Size": "5 oz glass bottle",
+      "Price": "$4.50",
+      "Barcode": "689076199025",
+      "Category": "Vinegars"
+    },
+    {
+      "Name": "Organic Nutritional Yeast, Large Flake",
+      "Size": "0.6 lb bag",
+      "Price": "$16.50",
+      "Barcode": "616316762060",
+      "Category": ""
+    },
+    {
+      "Name": "Dark Chocolate Covered Ginger",
+      "Size": "6 oz bag",
+      "Price": "$9.75",
+      "Barcode": "616316762251",
+      "Category": "Chocolates"
+    },
+    {
+      "Name": "Dark Chocolate Covered Ginger",
+      "Size": "2.5 oz bag",
+      "Price": "$4.00",
+      "Barcode": "616316762428",
+      "Category": "Chocolates"
+    },
+    {
+      "Name": "Organic Toasted Sesame Tahini",
+      "Size": "16oz Jar",
+      "Price": "$11.50",
+      "Barcode": "696859110368",
+      "Category": "Nut Butters"
+    }
+  ],
+  "errors": [],
+  "meta": {
+    "delimiter": ",",
+    "linebreak": "\n",
+    "aborted": false,
+    "truncated": false,
+    "cursor": 3391,
+    "fields": [
+      "Name",
+      "Size",
+      "Price",
+      "Barcode",
+      "Category"
+    ]
+  }
+}

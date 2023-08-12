@@ -1,10 +1,9 @@
 import React, {useState} from 'react';
-import CSVTableDisplay from './csv-table-display';
 import Papa from 'papaparse';
 
-export default function CSVUpload() {
+export default function CSVUpload(props) {
+  const {setParsedProducts} = props;
   const [file, setFile] = useState();
-  const [parsedCSV, setParsedCSV] = useState({data: [], meta: {fields: []}});
 
   const fileReader = new FileReader();
 
@@ -13,23 +12,26 @@ export default function CSVUpload() {
   };
 
   const csvFileToArray = csvString => {
-    // const csvHeader = string.slice(0, string.indexOf("\n")).split(",");
-    // const csvRows = string.slice(string.indexOf("\n") + 1).split("\n");
-
-    // const array = csvRows.map(i => {
-    //   const values = i.split(",");
-    //   const obj = csvHeader.reduce((object, header, index) => {
-    //     object[header] = values[index];
-    //     return object;
-    //   }, {});
-    //   return obj;
-    // });
-
-    const parsedCSV = Papa.parse(csvString, {
+    const rawCSV = Papa.parse(csvString, {
       header: true
-    })
-    console.log("RAW: ", JSON.stringify(parsedCSV))
-    setParsedCSV(parsedCSV);
+    });
+
+    const parsedCSV = rawCSV.data.reduce((prev, cur, index) => {
+      // @dnd-kit doesn't like {id: 0} for draggables
+      cur.id = index + 1;
+
+      if (!cur.category) cur.category = 'Miscellaneous';
+
+      if (prev[cur.category]) {
+        prev[cur.category].push(cur);
+      } else {
+        prev[cur.category] = [cur];
+      }
+
+      return prev;
+    }, {});
+
+    setParsedProducts(parsedCSV);
   };
 
   const handleOnSubmit = (e) => {
@@ -48,7 +50,7 @@ export default function CSVUpload() {
 
   return (
     <div style={{ textAlign: "center" }}>
-      <h1>REACTJS CSV IMPORT EXAMPLE </h1>
+      <h1>Price Sheet Maker</h1>
       <form>
         <input
           type={"file"}
@@ -65,12 +67,6 @@ export default function CSVUpload() {
           IMPORT CSV
         </button>
       </form>
-
-      <br />
-
-      <CSVTableDisplay
-        parsedCSV={parsedCSV}
-      />
     </div>
   );
 }
