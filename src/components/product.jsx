@@ -8,11 +8,13 @@ export const Product = forwardRef((props, ref) => {
   const style = {
     height: 'fit-content',
     width: 'fit-content',
+    textAlignment: 'center',
     border: '2px solid black'
   }
   return (
     <div
       ref={ref}
+      key={product.id}
       style={style}
       {...props}
     >

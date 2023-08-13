@@ -9,10 +9,12 @@ import {SortableProduct} from '../components/sortable-product';
 export default function Category(props) {
   const {id, products} = props;
 
-  const columns = 5;
+  const columns = 3;
 
   const style = {
     border: '2px solid black',
+    height: 'fit-content',
+    width: 'fit-content',
     minHeight: 100,
     minWidth: 100
   };

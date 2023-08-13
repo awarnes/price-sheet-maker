@@ -7,7 +7,7 @@ export function Error(props) {
     textAlignment: 'center',
     color: 'red'
   }
-  console.log("ERROR: ", error)
+
   return error && (
     <div style={style}>
       <h1>{error}</h1>
