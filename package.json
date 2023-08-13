@@ -9,10 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@dnd-kit/core": "^6.0.8",
+    "@dnd-kit/sortable": "^7.0.2",
+    "@dnd-kit/utilities": "^3.2.1",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.13",
     "next": "13.4.13",
+    "papaparse": "^5.4.1",
     "react": "18.2.0",
+    "react-barcode": "^1.4.6",
     "react-dom": "18.2.0"
   }
 }
