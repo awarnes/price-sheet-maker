@@ -5,8 +5,8 @@ export const Product = forwardRef((props, ref) => {
   const {product} = props;
 
   const style = {
-    minHeight: 100,
-    minWidth: 100,
+    height: 'fit-content',
+    width: 'fit-content',
     border: '2px solid black'
   }
   return (

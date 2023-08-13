@@ -1,21 +1,40 @@
 import React from 'react';
 import {
   SortableContext,
-  verticalListSortingStrategy,
 } from '@dnd-kit/sortable';
 
+import styles from './GridContainer.module.css';
 import {SortableProduct} from '../components/sortable-product';
 
 export default function Category(props) {
   const {id, products} = props;
+
+  const columns = 5;
+
   return (
-    <SortableContext
-      items={products}
-      strategy={verticalListSortingStrategy}
-      id={id}
-    >
+    <div>
       <h1>{id}</h1>
-      {products.map(product => <SortableProduct key={product.id} product={product} />)}
-    </SortableContext>
+
+      <ul
+        className={styles.GridContainer}
+        style={
+          {
+            '--col-count': columns,
+          }
+        }
+      >
+        <SortableContext
+          items={products}
+          id={id}
+        >
+          {products.map(product => (
+            <SortableProduct
+              key={product.id}
+              product={product}
+            />
+          ))}
+        </SortableContext>
+      </ul>
+    </div>
   );
 }

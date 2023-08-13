@@ -18,8 +18,8 @@ export function SortableProduct(props) {
   const style = {
     transform: CSS.Transform.toString(transform),
     transition,
-    minHeight: 'fit-content',
-    minWidth: 'fit-content',
+    heigh: 'fit-content',
+    width: 'fit-content',
     border: '2px solid black'
   };
   return (

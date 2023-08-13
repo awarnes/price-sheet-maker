@@ -16,7 +16,7 @@ import './App.css';
 import CSVUpload from './components/csv-upload';
 import Category from './containers/category';
 import {Product} from './components/product';
-import { handleDragEnd, handleDragStart } from './utilities/dragging';
+import { handleDragEnd, handleDragStart } from './utilities/drag-handlers';
 
 function App() {
   const sensors = useSensors(
@@ -36,7 +36,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className=''>
       <CSVUpload setParsedProducts={setParsedProducts} />
       <DndContext
         sensors={sensors}
@@ -62,7 +62,6 @@ function App() {
         </DragOverlay>
       </DndContext>
     </div>
-
   );
 }
 
