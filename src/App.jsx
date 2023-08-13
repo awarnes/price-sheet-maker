@@ -13,12 +13,13 @@ import {
 } from '@dnd-kit/sortable';
 
 import './App.css';
-import CSVUpload from './components/csv-upload';
+import CSVUpload, {ExampleCsvDownload} from './components/csv-upload';
 import Category from './containers/category';
 import {Product} from './components/product';
+import {Error} from './components/error';
 import { handleDragEnd, handleDragStart } from './utilities/drag-handlers';
 
-function App() {
+export default function App() {
   const sensors = useSensors(
     useSensor(PointerSensor),
     useSensor(KeyboardSensor, {
@@ -28,16 +29,14 @@ function App() {
 
   const [parsedProducts, setParsedProducts] = useState({});
   const [activeProduct, setActiveProduct] = useState(null);
-
-  const style = {
-    border: '2px solid black',
-    minHeight: 100,
-    minWidth: 100
-  };
+  const [error, setError] = useState(null);
 
   return (
-    <div className=''>
-      <CSVUpload setParsedProducts={setParsedProducts} />
+    <div>
+      <CSVUpload setParsedProducts={setParsedProducts} setError={setError} />
+      <ExampleCsvDownload />
+      <Error error={error} />
+
       <DndContext
         sensors={sensors}
         collisionDetection={closestCenter}
@@ -46,23 +45,19 @@ function App() {
       >
         {
           Object.keys(parsedProducts).map(category => (
-            <div style={style}>
-              <Category
-                key={category}
-                id={category}
-                products={parsedProducts[category]}
-              />
-            </div>
+            <Category
+              key={category}
+              id={category}
+              products={parsedProducts[category]}
+            />
           ))
         }
         <DragOverlay>
           {activeProduct ? (
             <Product product={activeProduct} />
-          ): null}
+          ) : null}
         </DragOverlay>
       </DndContext>
     </div>
   );
 }
-
-export default App;

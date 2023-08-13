@@ -11,8 +11,14 @@ export default function Category(props) {
 
   const columns = 5;
 
+  const style = {
+    border: '2px solid black',
+    minHeight: 100,
+    minWidth: 100
+  };
+
   return (
-    <div>
+    <div style={style}>
       <h1>{id}</h1>
 
       <ul
