@@ -12,10 +12,10 @@ import {
   sortableKeyboardCoordinates,
 } from '@dnd-kit/sortable';
 
-import CSVUpload, {ExampleCsvDownload} from '../components/csv-upload';
+import CSVUpload, {ExampleCsvDownload} from './csv-upload';
 import Category from '../containers/category';
-import {Product} from '../components/product';
-import {Error} from '../components/error';
+import {Product} from './product';
+import {Error} from './error';
 import { handleDragEnd, handleDragStart } from '../utilities/drag-handlers';
 
 export default function App() {
